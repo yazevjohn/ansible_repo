@@ -1,0 +1,10 @@
+---
+
+- hosts: nginx
+  user: root
+  tasks:
+  - name: copy file
+    copy: 
+     src: /tmp/ansible/templates/nginx/
+     dest: /etc/nginx/sites-available/
+     directory_mode: yes

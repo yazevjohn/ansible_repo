@@ -1,0 +1,5 @@
+---
+ - hosts: nginx
+   tasks:
+   - name: ping
+     ping:
