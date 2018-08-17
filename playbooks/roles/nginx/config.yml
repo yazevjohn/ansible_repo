@@ -7,4 +7,4 @@
     copy:
      src: /tmp/semaphore/repository_1/playbooks/roles/nginx/files/sites-available/
      dest: /etc/nginx/sites-available/
-     director_mode: yes
+     directory_mode: yes
