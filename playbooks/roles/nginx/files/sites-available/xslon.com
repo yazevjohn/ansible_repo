@@ -3,29 +3,6 @@ server {
     listen   80;
     server_name new.xslon.com www.xslon.com xslon.com;
 
-#   location ~ /\.ht { deny all; }
-#   location ~ /\.svn { deny all; }
-#   location ~ /\.git { deny all; }
-#   location ~ /\. { deny all; }
-
-#   location /nginx-status {
-#	include /etc/nginx/naxsi.rules;
-#	if ($white_ip != '1')
-	#{
-	#    error_page   412  = @nocache;
-	#    return 412;
-	#}
-
-	#allow 127.0.0.1;
-	#allow all;
-	#deny all;
-	#access_log  off;
-	#stub_status on;
-    #}
-
-
-   
-
 location / {
 
 
