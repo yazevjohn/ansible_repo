@@ -10,4 +10,4 @@
   - name: copy_from_local_distr_to_nginx_config
     copy:
      src: /tmp/git_repo_ansible/playbooks/roles/nginx/files/sites-available/
-     dest: /etc/nginx/sites-available/
+     dest: /etc/nginx/sites-available
