@@ -15,6 +15,7 @@ location / {
         proxy_set_header X-ARGS $args;
         proxy_set_header Refer $http_refer;
         #proxy_cache off;
+		#dgasfg;
         }
 
 
