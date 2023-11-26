@@ -5,7 +5,7 @@ server {
     listen   443 ssl default;
     #server_name *;
     #ssl on; #deprecated
-    ssl_protocols TLSv1.3 TLSv1.2 TLSv1;
+    ssl_protocols TLSv1.2 TLSv1.1 TLSv1;
     #ssl_certificate /etc/nginx/ssl/tele1c.com.crt;
     #ssl_certificate_key /etc/nginx/ssl/tele1c.com.key;
 
